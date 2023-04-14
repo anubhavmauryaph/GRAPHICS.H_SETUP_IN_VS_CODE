@@ -1,0 +1,20 @@
+{
+
+	"Include To Graphics": {
+		"prefix": "graphics",
+		"body": [
+			"#include<graphics.h>\n",
+			"int main(){",
+			"\tint gd=DETECT,gm;",
+			"\tinitgraph(&gd,&gm,NULL);",
+			"\t/* Here Start To Write Your Code*/\n",
+
+			"\t$1",	
+			"\tgetch();",
+			"\tclosegraph();",
+			"\treturn 0;",
+			"\t}"
+		],
+		"description": "Log output to console"
+	}
+}
