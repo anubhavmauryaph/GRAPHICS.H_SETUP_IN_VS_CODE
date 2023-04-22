@@ -11,7 +11,7 @@
 
 			"\t$1",	
 			"\tgetch();",
-			"\tclosegraph();",
+			"\tclosegraph(0);",
 			"\treturn 0;",
 			"\t}"
 		],
